@@ -1,0 +1,9 @@
+git clone https://github.com/Tripouille/libftTester.git dans le dossier libft
+cd libftTester
+vim Makefile
+Modifier la ligne LIBFT_PATH = $(PARENT_DIR), en remplaçant "$(PARENT_DIR)" par le chemin de votre dossier libft
+Obtenir le chemin du dossier libft => Faire la commande pwd dans le shell une fois dans le dossier libft ou glisser le dossier libft dans le terminal
+Esc + wq, pour quitter vim
+Make m pour lancer les tests des fonctions de la partie obligatoire
+Make b pour lancer les tests des fonctions de la partie bonus
+Make a pour lancer les tests des fonctions des deux parties
